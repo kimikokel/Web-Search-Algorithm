@@ -1,0 +1,70 @@
+
+======= Stage 1 [para 1; 141 words]
+
+======= Stage 2 [para 1; 141 words; 3 matches]
+Either the well was very deep, or she fell very slowly, for she had
+plenty of time as she went **down** to look about her and to wonder what
+was going to happen next. First, she tried to look **down** and make out
+what she was coming to, but it was too dark to see anything; then she
+looked at the sides of the well, and noticed that they were filled with
+cupboards and book shelves; here and there she saw maps and pictures
+hung upon pegs. She took **down** a jar from one of the shelves as she
+passed; it was labelled ORANGE MARMALADE but to her great disappointment
+it was empty: she did not like to drop the jar for fear of killing
+somebody, so managed to put it into one of the cupboards as she fell
+past it.
+
+======= Stage 3 [para 1; start 0; length 21; score 4.00]
+Either the well was very deep, or she fell very slowly, for she had
+plenty of time as she went **down**...
+
+======= Stage 1 [para 2; 51 words]
+
+======= Stage 2 [para 2; 51 words; 1 matches]
+Well! thought Alice to herself, after such a fall as this, I shall think
+nothing of tumbling **down** stairs! How brave they ll all think me at
+home! Why, I wouldn t say anything about it, even if I fell off the top
+of the house! Which was very likely true.
+
+======= Stage 3 [para 2; start 0; length 20; score 4.10]
+Well! thought Alice to herself, after such a fall as this, I shall think
+nothing of tumbling **down** stairs! How...
+
+======= Stage 1 [para 3; 135 words]
+
+======= Stage 2 [para 3; 135 words; 4 matches]
+**Down**, **down**, **down**. Would the fall NEVER come to an end! I
+wonder how many miles I ve fallen by this time? she said aloud. I must
+be getting somewhere near the centre of the earth. Let me see: that
+would be four thousand miles **down**, I think for, you see, Alice had
+learnt several things of this sort in her lessons in the schoolroom, and
+though this was not a VERY good opportunity for showing off her
+knowledge, as there was no one to listen to her, still it was good
+practice to say it over yes, that s about the right distance but then I
+wonder what Latitude or Longitude I ve got to? Alice had no idea what
+Latitude was, or Longitude either, but thought they were nice grand
+words to say.
+
+======= Stage 3 [para 3; start 0; length 22; score 6.20]
+**Down**, **down**, **down**. Would the fall NEVER come to an end! I
+wonder how many miles I ve fallen by this time?
+
+======= Stage 1 [para 4; 132 words]
+
+======= Stage 2 [para 4; 132 words; 3 matches]
+Presently she began again. I wonder if I shall fall right THROUGH the
+earth! How funny it ll seem to come out among the people that walk with
+their heads downward! The Antipathies, I think she was rather glad there
+WAS no one listening, this time, as it didn t sound at all the right
+word but I shall have to ask them what the name of the country is, you
+know. Please, Ma am, is this **New** **Zealand** or **Australia**? and
+she tried to curtsey as she spoke fancy CURTSEYING as you re falling
+through the air! Do you think you could manage it? And what an ignorant
+little girl she ll think me for asking! No, it ll never do to ask:
+perhaps I shall see it written up somewhere.
+
+======= Stage 3 [para 4; start 70; length 20; score 10.29]
+you know. Please, Ma am, is this **New** **Zealand** or **Australia**?
+and she tried to curtsey as she spoke fancy...
+
+ta daa!
