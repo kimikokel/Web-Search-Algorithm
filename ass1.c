@@ -45,65 +45,28 @@
 #include <assert.h>
 #include <ctype.h>
 #include <string.h>
-
-	/* you may need to delete this next line on some platforms
-	   in order to get it to compile; if you end up doing that
-	   make sure you put it back before you submit to the
-	   Gradescope system, because it is required there */
 #include <strings.h>
 
-	/* maximum number of characters per word */
 #define MAX_WORD_LEN 23
-	/* maximum number of words per paragraph */
 #define MAX_PARA_LEN 10000
-
-	/* return code from get_word if end of paragraph found */
 #define PARA_END 1
-	/* return code from get_word if a word successfully found */
 #define WORD_FND 2
-
-	/* terminating punctuation that may follow a word */
 #define TERM_PUNCT ".,;:!?"
-	/* terminating punctuation that needs dots added */
 #define NEEDS_DOTS ",;:"
-	/* the string the separates paragraphs */
 #define PARA_SEPARATOR "\n\n"
-	/* insertion characters to indicate "bold" */
 #define BBOLD "**"
-	/* length of those characters when wrapped around a word */
 #define BBOLD_LEN (2*strlen(BBOLD))
-	/* insertion characters to indicate omitted text */
 #define DDOTS "..."
-
-	/* maximum words in any output snippet */
 #define MAX_SNIPPET_LEN 30
-	/* minimum words in any output snippet */
 #define MIN_SNIPPET_LEN 20
-	/* maximum length of output lines */
 #define MAX_OUTPUT_LINE 72
-
-	/* maximum terms allowed on command line */
 #define MAX_TERMS 50
-	/* signal for no match between word and query term */
 #define NO_MATCH (-1)
 
 typedef char word_t[MAX_WORD_LEN+1];
-int     get_word(word_t w, int limit);
+int get_word(word_t w, int limit);
 
-/* If you wish to add further #defines, put them below this comment,
-   then prototypes for the functions that you add
-
-   The only thing you should alter above this line is to complete the
-   Authorship Declaration 
-*/
-
-/****************************************************************/
-
-
-/* main program controls all the action
-*/
-int
-main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
 	word_t w;
 	while (get_word(w, MAX_WORD_LEN) != EOF) {
 		printf("%s\n", w);
@@ -112,16 +75,7 @@ main(int argc, char *argv[]) {
 	return 0;
 }
 
-/****************************************************************/
-
-
-/* extract a single word out of the standard input, but not
-   more than "limit" characters in total. One character of
-   sensible trailing punctuation is retained.  
-   argument array W must be limit+1 characters or bigger
-*/
-int
-get_word(word_t W, int limit) {
+int get_word(word_t W, int limit) {
 	int c;
 	/* first, skip over any non alphanumerics */
 	while ((c=getchar())!=EOF && !isalnum(c)) {
