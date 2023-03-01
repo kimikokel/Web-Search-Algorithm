@@ -54,7 +54,3 @@ dkms.conf
 *.txt
 ass1-ai.c
 .DS_Store
-
-.DS_Store
-*.txt
-ass1-ai.c
