@@ -1,2 +1,2 @@
 # Web-Search-Algorithm
-FOA 2022 Sem2 Assignment 1
+Foundations of Algorithms 2022 Semester 2 Assignment 1
